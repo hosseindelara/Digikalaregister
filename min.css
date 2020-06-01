@@ -1,0 +1,104 @@
+﻿@font-face {
+  font-family: Shabnam;
+  src: url(Shabnam-FD.ttf);
+}
+
+body {
+  direction: rtl;
+  background-color: #f5f5f5;
+  font-size: 14;
+  font-family: Shabnam;
+  color: #515151;
+  text-align: right;
+}
+
+a:link {
+  color: #4a5f73;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #4a5f73;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #4a5f73;
+  text-decoration: none;
+}
+
+a:active {
+  text-decoration: none;
+}
+
+.btn:focus {
+  border: none;
+  box-shadow: none;
+
+}
+
+
+.login-div>img{
+  position: relative;
+  height: 0 auto;
+  height: 50px;
+  width: 140px;
+}
+
+.login-heder-card {
+  font-size: 18px;
+  color: #656565;
+  line-height: 1.222;
+  padding: 17px 40px;
+
+}
+
+.card-login {
+  width: 480px;
+  margin: 0 auto;
+  
+}
+
+.card-footer-registe {
+  font-size: 15px;
+  background-color: rgba(0, 190, 214, .04);
+  border-top: 1px solid rgba(0, 190, 214, .13);
+  padding: 25px 40px 28px
+}
+
+.card-footer-registe>a {
+  color: #1ca2bd;
+  padding: 0;
+  line-height: 2;
+  border-bottom: 1px dashed #1ca2bd;
+}
+
+.card-body-registe-link {
+  color: #1ca2bd !important;
+  padding: 0;
+  line-height: 2;
+  border-bottom: 1px dashed #1ca2bd;
+}
+
+.cfooter-registe>ul>li {
+  line-height: 1.692;
+  color: #b1b1b1;
+  font-size: 13px;
+  text-align: center;
+  list-style: none;
+  display: inline;
+  margin: 0 17px;
+
+}
+
+.cfooter-registe>ul>li>a {
+  color: #7f7f7f;
+  letter-spacing: -.5px;
+}
+
+.footer-registe-blockquote {
+  font-size: 12px;
+  line-height: 21px;
+  color: #b0b0b0;
+  text-align: center;
+}
